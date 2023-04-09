@@ -7,3 +7,16 @@ def main(s):
     Returns:
         int: return answer
     """
+    a='a'
+    e='e'
+    i='i'
+    o='o'
+    u='u'
+    k=0
+    l=0
+    while k<len(s):
+        if s[k]!=a and s[k]!=e and s[k]!=i and s[k]!=o and s[k]!=u:
+            l+=1
+        k+=1
+    return l
+print(main('codeschool'))
